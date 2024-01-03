@@ -1,0 +1,46 @@
+Nav .nav-link{
+  font-size: 18px;
+}
+.nav-link hr{
+  border: none;
+  width: 90%;
+  height: 4px;
+  border-radius: 10px;
+  background: #d00243;
+}
+.nav-logo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav-logo img{
+  height: 50px;
+}
+.cart-count{
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 155px;
+  border-radius: 11px;
+  font-size: 15px;
+  background: red;
+  color: white;
+}
+.nav-cart img{
+  height: 30px;
+}
+.hero .btn {
+  background-color: #ff004f;
+  color: #fff;
+  border-color: #ff004f;
+}
+.hero .btn:hover{
+  color: #ff004f;
+  background-color: #fff;
+  border-color: #ff004f;
+}
+
